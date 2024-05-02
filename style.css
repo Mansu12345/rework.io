@@ -1,0 +1,30 @@
+.card-list {
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content : center;
+
+}
+
+
+.title-input {  
+ padding: 5px 10px;
+ text-align: center;
+ margin: 5px 2px;
+}
+
+
+.title-btn {
+  padding : 5px 10px;
+ 
+}
+
+
+header {
+    background-color: yellow;
+    display : flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+

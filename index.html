@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    
+    <title>영화 평점 리스트</title>
+  
+
+</head>
+<body>
+  <!--header부분: 제목--> 
+  <header>
+       <h1> 최고 평점 영화 리스트 </h1>
+        </br> <!--줄바꿈-->
+  </header>
+
+
+  <form> <!--정보수집 요소-->
+    <div> <!--영화제목 검색 부분 구현-->
+        <label for ="title-input"> 영화제목 : </label>
+        <input type = "text" id = "title-input" placeholder="영화제목 입력">
+        <button type = "button" id = "title-btn" onclick = "buttonActive()">검색</button>
+    </div>  
+  </form>
+
+
+
+  <!-- 영화 컨텐츠 담는 부분) 카드리스트 css 적용-->
+
+    <div class = "card-list" id="div"> </div>
+ 
+        
+
+
+  <!--js넣음-->
+ <script src = "script.js"></script>
+    
+
+</body>
+</html>
